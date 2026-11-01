@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071112">
+  <meta name="description" content="Интерактивный прототип курса «Последний онлайн»">
+  <title>Последний онлайн</title>
+  <link rel="stylesheet" href="styles.css?v=44">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <audio id="ambient-music" src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/horror-ambient.mp3" preload="metadata" loop></audio>
+  <main id="course" class="course" aria-live="polite">
+    <header id="hud" class="hud" hidden>
+      <div class="hud__brand" aria-label="Последний онлайн">
+        <span class="signal-dot" aria-hidden="true"></span>
+        <span>ПОСЛЕДНИЙ ОНЛАЙН</span>
+      </div>
+      <div class="hud__metrics">
+        <div class="metric"><span class="metric__label">Время</span><strong id="hud-time">21:47</strong></div>
+        <div class="metric"><span class="metric__label">Сила Тени</span><strong id="hud-risk">0/3</strong><span id="shadow-dots" class="shadow-dots" aria-hidden="true"></span></div>
+        <div class="metric metric--protection">
+          <span class="metric__label">Защита</span>
+          <strong id="hud-protection">0/5</strong>
+          <span id="protection-dots" class="protection-dots" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="hud__controls">
+        <button id="sound-toggle" class="icon-button" type="button" aria-pressed="true" title="Звук">◉</button>
+        <button id="fullscreen-toggle" class="icon-button" type="button" title="Полноэкранный режим">⛶</button>
+      </div>
+    </header>
+
+    <section id="scene" class="scene" aria-labelledby="scene-title"></section>
+
+    <div id="live-region" class="sr-only" aria-live="assertive"></div>
+  </main>
+
+  <noscript>Для прохождения курса включите JavaScript.</noscript>
+  <script src="app.js?v=44"></script>
+</body>
+</html>
+
