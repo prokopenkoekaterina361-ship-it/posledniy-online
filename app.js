@@ -388,7 +388,7 @@
         </div>
         <div class="map-nika" role="img" aria-label="Ника находится у рабочего места">
           <span class="map-nika__label">Ника</span>
-          <div class="nika-sprite" aria-hidden="true"><img src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-map-sprites.png" alt=""></div>
+          <div class="nika-sprite" aria-hidden="true"><img src="assets/nika-map-sprites.png" alt=""></div>
         </div>
         <button class="map-hotspot" type="button" data-action="archive" aria-label="Перейти в архив сотрудников"><span>Архив сотрудников</span></button>
       </div>`;
@@ -484,7 +484,7 @@
           <button class="call-next" type="button" data-action="next">Написать Марине</button>
           <button class="call-replay" type="button" data-action="replay-call">Повторить звонок</button>
         </div>
-        <audio id="archive-ringtone" preload="auto" src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-ringtone.mp3"></audio>
+        <audio id="archive-ringtone" preload="auto" src="assets/archive-ringtone.mp3"></audio>
       </div>`;
   }
 
@@ -517,7 +517,7 @@
         ${button('Перейти в главу 3', 'next')}
         ${button('Начать историю заново', 'reset', true)}
       </div>
-      <audio id="archive-door-creak" preload="auto" src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-door-creak.mp3"></audio>`;
+      <audio id="archive-door-creak" preload="auto" src="assets/archive-door-creak.mp3"></audio>`;
   }
 
   function shadowDoorScene() {
@@ -578,7 +578,7 @@
   }
 
   function returnMapScene() {
-    return `<div class="content"><div class="map-copy"><p class="eyebrow">Карта этажа</p><h2 id="scene-title">Возвращение</h2><p class="objective">Ника возвращается к своему рабочему столу.</p><button class="return-next primary-button" type="button" data-action="next" hidden>К рабочему столу</button>${button('К рекомендациям', 'back-theory', true)}</div></div><div class="map-return-stage"><div class="map-nika is-returning" role="img" aria-label="Ника идёт из архива через коридор и вход в кабинет к своему столу"><span class="map-nika__label">Ника</span><div class="nika-sprite" aria-hidden="true"><img src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-map-sprites.png" alt=""></div></div></div>`;
+    return `<div class="content"><div class="map-copy"><p class="eyebrow">Карта этажа</p><h2 id="scene-title">Возвращение</h2><p class="objective">Ника возвращается к своему рабочему столу.</p><button class="return-next primary-button" type="button" data-action="next" hidden>К рабочему столу</button>${button('К рекомендациям', 'back-theory', true)}</div></div><div class="map-return-stage"><div class="map-nika is-returning" role="img" aria-label="Ника идёт из архива через коридор и вход в кабинет к своему столу"><span class="map-nika__label">Ника</span><div class="nika-sprite" aria-hidden="true"><img src="assets/nika-map-sprites.png" alt=""></div></div></div>`;
   }
 
   function securityChatScene() {
@@ -613,7 +613,7 @@
   }
 
   function leavingScene() {
-    return `<div class="leaving-action"><button class="primary-button leaving-next" type="button" data-action="next" hidden>Посмотреть сообщение</button>${button('К итогам смены', 'back-summary', true)}</div><audio id="message-notification" src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/message-notification.mp3" preload="auto"></audio>`;
+    return `<div class="leaving-action"><button class="primary-button leaving-next" type="button" data-action="next" hidden>Посмотреть сообщение</button>${button('К итогам смены', 'back-summary', true)}</div><audio id="message-notification" src="assets/message-notification.mp3" preload="auto"></audio>`;
   }
 
   function mashaFinalScene() {
@@ -621,16 +621,16 @@
       <p class="sr-only">Маша Кузнецова была в сети 8 месяцев назад. Привет. Ты ещё в офисе? Откроешь файл?</p>
       <div class="masha-stage"><div class="masha-typing" hidden>Маша печатает<span aria-hidden="true">…</span></div></div>
       <div class="masha-finish" hidden>${button('Завершить', 'next')}</div>
-      <audio id="witch-laugh" src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/witch-laugh.mp3" preload="auto"></audio>`;
+      <audio id="witch-laugh" src="assets/witch-laugh.mp3" preload="auto"></audio>`;
   }
 
   function authorScene() {
     return `<div class="author-layout"><div class="author-card">
-      <div class="author-portrait"><img src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/author-portrait.png" alt="Иллюстрированный портрет Екатерины в ведьминском колпаке"></div>
+      <div class="author-portrait"><img src="assets/author-portrait.jpg" alt="Иллюстрированный портрет Екатерины в ведьминском колпаке"></div>
       <div class="author-info"><p class="eyebrow">Последний онлайн</p><h1 id="scene-title">Об авторе</h1>
         <p class="author-credit">Курс разработан Прокопенко Екатериной при поддержке чата GPT.</p>
         <p class="author-invite">Подписывайтесь на канал</p>
-        <div class="author-channel"><img src="https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/author-telegram-qr.png" alt="QR-код Telegram-канала PROCURS_V_TAPKAH"><a href="https://t.me/procurs_v_tapkah" target="_blank" rel="noopener noreferrer">@PROCURS_V_TAPKAH ↗</a></div>
+        <div class="author-channel"><img src="assets/author-telegram-qr.png" alt="QR-код Telegram-канала PROCURS_V_TAPKAH"><a href="https://t.me/procurs_v_tapkah" target="_blank" rel="noopener noreferrer">@PROCURS_V_TAPKAH ↗</a></div>
         ${button('Пройти ещё раз', 'reset')}
       </div></div></div>`;
   }
@@ -668,31 +668,31 @@
     else classes.push('scene--office');
     scene.className = classes.join(' ');
     const sceneBackgrounds = {
-      1: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/office-exterior.png')",
-      2: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/screen-02-rules.png')",
-      3: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/screen-03-office.png')",
-      4: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/screen-04-nika-chat.png')",
-      5: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-monitor-chat.jpg')",
-      6: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-monitor-chat.jpg')",
-      7: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-decision.jpg')",
-      8: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-outcome.jpg')",
-      9: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/office-stop.jpg')",
-      11: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-interior.jpg')",
-      12: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-terminal.jpg')",
-      13: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-terminal.jpg')",
-      14: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-directory.jpg')",
-      15: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-directory.jpg')",
-      16: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-directory.jpg')",
-      17: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-directory.jpg')",
-      18: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-shadow-door.png')",
-      19: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-shadow-door.png')",
-      20: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-shadow-door.png')",
-      21: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/archive-shadow-door.png')",
-      23: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-monitor-chat.jpg')",
-      24: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/final-office.png')",
-      25: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/nika-leaving.png')",
-      26: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/masha-final.png')",
-      27: "url('https://posledniy-online-prototype.katepro1234.chatgpt.site/assets/final-office.png')"
+      1: "url('assets/office-exterior.jpg')",
+      2: "url('assets/screen-02-rules.jpg')",
+      3: "url('assets/screen-03-office.jpg')",
+      4: "url('assets/screen-04-nika-chat.jpg')",
+      5: "url('assets/nika-monitor-chat.jpg')",
+      6: "url('assets/nika-monitor-chat.jpg')",
+      7: "url('assets/nika-decision.jpg')",
+      8: "url('assets/nika-outcome.jpg')",
+      9: "url('assets/office-stop.jpg')",
+      11: "url('assets/archive-interior.jpg')",
+      12: "url('assets/archive-terminal.jpg')",
+      13: "url('assets/archive-terminal.jpg')",
+      14: "url('assets/archive-directory.jpg')",
+      15: "url('assets/archive-directory.jpg')",
+      16: "url('assets/archive-directory.jpg')",
+      17: "url('assets/archive-directory.jpg')",
+      18: "url('assets/archive-shadow-door.jpg')",
+      19: "url('assets/archive-shadow-door.jpg')",
+      20: "url('assets/archive-shadow-door.jpg')",
+      21: "url('assets/archive-shadow-door.jpg')",
+      23: "url('assets/nika-monitor-chat.jpg')",
+      24: "url('assets/final-office.jpg')",
+      25: "url('assets/nika-leaving.jpg')",
+      26: "url('assets/masha-final.jpg')",
+      27: "url('assets/final-office.jpg')"
     };
     scene.style.setProperty('--scene-bg', sceneBackgrounds[state.scene] || '');
     scene.innerHTML = template();
